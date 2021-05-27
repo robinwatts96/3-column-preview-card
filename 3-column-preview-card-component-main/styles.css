@@ -1,8 +1,8 @@
 /* Cards */
 .card {
     border: 1px solid black;
-    width: 95%;
-    height: 45vh;
+    width: 92%;
+    height: 50vh;
     margin: 0 auto;
 }
 
@@ -22,9 +22,17 @@
 /* Text */
 h1,
 p {
-    color: white;
+    color: hsla(0, 0%, 100%, 0.75);
 }
 
+p {
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+h1 {
+    font-family: 'Big Shoulders Display', cursive;
+}
 
 /* Buttons */
 button {
