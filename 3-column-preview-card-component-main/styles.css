@@ -12,6 +12,13 @@
     border-top-left-radius: 4%;
 }
 
+#sedans,
+#suvs,
+#luxury {
+    width: 70%;
+    margin: 0 auto;
+}
+
 .suvs {
     background-color: hsl(184, 100%, 22%);
     margin: 0 auto;
