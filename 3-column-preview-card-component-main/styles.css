@@ -67,12 +67,33 @@ button {
     color:hsl(31, 77%, 52%);
 }
 
+.sedans button:hover {
+    background-color:hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+    border: 1px solid hsl(0, 0%, 95%);
+    transition: all 600ms;
+}
+
 .suvs button {
     color:hsl(184, 100%, 22%);
 }
 
+.suvs button:hover {
+    background-color:hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+    border: 1px solid hsl(0, 0%, 95%);
+    transition: all 600ms;
+}
+
 .luxury button {
     color:hsl(179, 100%, 13%);
+}
+
+.luxury button:hover {
+    background-color:hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+    border: 1px solid hsl(0, 0%, 95%);
+    transition: all 600ms;
 }
 
 
@@ -92,3 +113,7 @@ img {
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
+
+
+
+/* Media Query - Desktop (1440px) */
