@@ -117,3 +117,51 @@ img {
 
 
 /* Media Query - Desktop (1440px) */
+@media only screen and (min-width: 1440px) {
+    .container {
+        display: flex;
+        justify-content: center;
+        height: 100vh;
+
+    }
+
+    .card {
+       margin: 9em 0;
+       width: 25%;
+       height: 75%;
+    }
+
+    .sedans {
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 3%;
+    }
+
+    .luxury {
+        border-top-right-radius: 3%;
+        border-bottom-left-radius: 0;
+    }
+
+    img {
+        margin-top: 5em;
+    }   
+   
+    h1 {
+        font-size: 2.95em;
+        letter-spacing: 0.075em;
+    }
+
+    p {
+        font-size: 17.5px;
+        margin-bottom: 7.5em;
+        line-height: 1.75em;
+    }
+
+    button {
+        border-radius: 5em;
+        padding: 0.85em 1.9em;
+        font-size: 1em;
+        font-family: 'Lexend Deca', sans-serif;
+        border: none;
+        background-color: hsl(0, 0%, 95%);
+    }
+}
